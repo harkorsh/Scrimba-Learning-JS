@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background: #e5e5e5;
+}
+
+.home-score {
+  width: 155px;
+  height: 120px;
+  left: 82px;
+  top: 125px;
+  background: #080001;
+  border-radius: 5px;
+}
+
+.home-points-text {
+  width: 117px;
+  height: 120px;
+  left: 355px;
+  top: 125px;
+
+  font-family: "Yantramanav";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  /* or 141% */
+
+  text-align: center;
+
+  color: #f94f6d;
+}
+
+.add-btn {
+  width: 45px;
+  height: 45px;
+  left: 337px;
+  top: 271px;
+}

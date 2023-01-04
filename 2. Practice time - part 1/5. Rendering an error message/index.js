@@ -2,4 +2,9 @@
 // "Something went wrong, please try again" in the paragraph
 // that has the id="error".
 
+let errorParagraph = document.getElementById("error");
+let errorMsg = "Something went wrong, please try again";
 
+function buyNow() {
+  errorParagraph.textContent = errorMsg;
+}
