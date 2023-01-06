@@ -1,11 +1,8 @@
-// let plusOnePoint = document.getElementById("plus-one-point");
-// let plusTwoPoint = document.getElementById("plus-two-point");
-// let plusThreePoint = document.getElementById("plus-three-point");
-
 let scoreOne = document.getElementById("home-score");
 let scoreTwo = document.getElementById("away-score");
 let homePoint = 0;
 let awayPoint = 0;
+
 // create the function to add one home
 function plusOneHome() {
   homePoint += 1;
@@ -41,4 +38,11 @@ function plusThreeAway() {
   awayPoint += 3;
   scoreTwo.textContent = awayPoint;
   console.log(awayPoint);
+}
+// Reset the page
+function resetBtn() {
+  homePoint = 0;
+  awayPoint = 0;
+  scoreTwo.textContent = awayPoint;
+  scoreOne.textContent = homePoint;
 }
